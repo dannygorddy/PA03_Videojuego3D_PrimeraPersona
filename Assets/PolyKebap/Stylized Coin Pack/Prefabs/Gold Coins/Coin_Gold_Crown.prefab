@@ -159,3 +159,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6e87aefcb344d1409ef34240a3af7ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Collectible
+  collectEffect: {fileID: 1323107300257144587, guid: fe0ad5c24dd767746a6bd99a0229fc13, type: 3}
