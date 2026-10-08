@@ -1,17 +1,26 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MusicManager : MonoBehaviour
 {
     private static MusicManager instance;
+    private AudioSource audioSource;
 
-    void Start()
+    private void Awake()
     {
         if (instance == null)
         {
             instance = this;
             DontDestroyOnLoad(this.gameObject);
+
+            audioSource = GetComponent<AudioSource>();
+
+            // Recupera el volumen guardado.
+            float volumenGuardado = PlayerPrefs.GetFloat("MusicVolume", 0.7f);
+
+            if (audioSource != null)
+            {
+                audioSource.volume = volumenGuardado;
+            }
         }
         else
         {
@@ -19,5 +28,15 @@ public class MusicManager : MonoBehaviour
         }
     }
 
-    
+    public void SetMusicVolume(float volume)
+    {
+        if (audioSource != null)
+        {
+            audioSource.volume = volume;
+
+            // Guarda el volumen elegido.
+            PlayerPrefs.SetFloat("MusicVolume", volume);
+            PlayerPrefs.Save();
+        }
+    }
 }

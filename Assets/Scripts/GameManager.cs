@@ -18,6 +18,8 @@ public class GameManager : MonoBehaviour
     {
         totalCollectiblesNumber = transform.childCount; 
         totalCollectiblesNumbersText.text = totalCollectiblesNumber.ToString();
+
+        audioSource.volume = PlayerPrefs.GetFloat("SFXVolume", 0.7f);
     }
 
     void Update()

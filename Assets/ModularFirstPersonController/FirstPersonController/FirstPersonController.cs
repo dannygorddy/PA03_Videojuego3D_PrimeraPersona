@@ -132,6 +132,7 @@ public class FirstPersonController : MonoBehaviour
     private float timer = 0;
 
     #endregion
+    
 
     private void Awake()
     {
@@ -153,6 +154,8 @@ public class FirstPersonController : MonoBehaviour
 
     void Start()
     {
+        mouseSensitivity = PlayerPrefs.GetFloat("MouseSensitivity", 2f);
+        
         if(lockCursor)
         {
             Cursor.lockState = CursorLockMode.Locked;
