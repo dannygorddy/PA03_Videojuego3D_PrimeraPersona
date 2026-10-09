@@ -3924,7 +3924,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Monedas:'
+  m_text: 'Reliquias:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -4932,6 +4932,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 476435524}
+  - {fileID: 8755185937544673329}
   - {fileID: 1007870883}
   - {fileID: 400444004}
   - {fileID: 1685135486}
@@ -5116,6 +5117,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1433909183}
   m_CullTransparentMesh: 1
+--- !u!1001 &1531878570
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6080276715406514684, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 458.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080276715406514684, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080276715406514684, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 442.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080276715406514684, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99548554
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080276715406514684, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.012336563
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080276715406514684, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.09410109
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080276715406514684, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0011661487
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080276715406514684, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -1.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080276715406514684, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 10.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080276715406514684, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6857482333928424262, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
+      propertyPath: m_Name
+      value: Reliquia_Bosque
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
 --- !u!1 &1562130310
 GameObject:
   m_ObjectHideFlags: 0
@@ -6888,6 +6946,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 354049456774051605, guid: 54bbaeb21a67e664fb285a936766772c, type: 3}
   m_PrefabInstance: {fileID: 584923584}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8755185937544673328
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1430484299}
+    m_Modifications:
+    - target: {fileID: 6080276715406514684, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 460.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080276715406514684, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080276715406514684, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 478.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080276715406514684, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.005236133
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080276715406514684, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000011423642
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080276715406514684, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9999839
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080276715406514684, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0021816592
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080276715406514684, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080276715406514684, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -179.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080276715406514684, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6857482333928424262, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
+      propertyPath: m_Name
+      value: Reliquia_Bosque
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
+--- !u!4 &8755185937544673329 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6080276715406514684, guid: 554755d13d2f3a444b6ad74f779be011, type: 3}
+  m_PrefabInstance: {fileID: 8755185937544673328}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -6904,3 +7024,4 @@ SceneRoots:
   - {fileID: 1430484299}
   - {fileID: 1808746304}
   - {fileID: 1332888218}
+  - {fileID: 1531878570}
