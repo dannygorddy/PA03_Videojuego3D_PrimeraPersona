@@ -5905,6 +5905,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1332888218}
     m_Modifications:
+    - target: {fileID: -2457590319289420135, guid: 48d2e97472f3bf84a844879441514e87, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6109667229996435940, guid: 48d2e97472f3bf84a844879441514e87, type: 3}
       propertyPath: m_LocalPosition.x
       value: -343.51242
@@ -5949,6 +5953,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'House 5 '
       objectReference: {fileID: 0}
+    - target: {fileID: 8929675069588923866, guid: 48d2e97472f3bf84a844879441514e87, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8929675069588923866, guid: 48d2e97472f3bf84a844879441514e87, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 299a149328cc3b34da4fc373f25cb394, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
