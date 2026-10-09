@@ -7,6 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     [SerializeField] private GameObject panelMenuPrincipal;
     [SerializeField] private GameObject panelOpciones;
+    [SerializeField] private GameObject panelCreditos;
 
     private void Start()
     {
@@ -17,6 +18,7 @@ public class MainMenu : MonoBehaviour
 
         panelMenuPrincipal.SetActive(true);
         panelOpciones.SetActive(false);
+        panelCreditos.SetActive(false);
     }
 
     public void Play()
@@ -28,24 +30,34 @@ public class MainMenu : MonoBehaviour
     {
         panelMenuPrincipal.SetActive(false);
         panelOpciones.SetActive(true);
+        panelCreditos.SetActive(false);
+    }
+
+    public void OpenCredits()
+    {
+        panelMenuPrincipal.SetActive(false);
+        panelOpciones.SetActive(false);
+        panelCreditos.SetActive(true);
     }
 
     public void BackToMainMenu()
     {
-        panelOpciones.SetActive(false);
         panelMenuPrincipal.SetActive(true);
+        panelOpciones.SetActive(false);
+        panelCreditos.SetActive(false);
     }
-    public void SetSFXVolume(float volume)
-{
-    PlayerPrefs.SetFloat("SFXVolume", volume);
-    PlayerPrefs.Save();
-}
 
-public void SetSensitivity(float sensitivity)
-{
-    PlayerPrefs.SetFloat("MouseSensitivity", sensitivity);
-    PlayerPrefs.Save();
-}
+    public void SetSFXVolume(float volume)
+    {
+        PlayerPrefs.SetFloat("SFXVolume", volume);
+        PlayerPrefs.Save();
+    }
+
+    public void SetSensitivity(float sensitivity)
+    {
+        PlayerPrefs.SetFloat("MouseSensitivity", sensitivity);
+        PlayerPrefs.Save();
+    }
 
     public void Quit()
     {
