@@ -3376,6 +3376,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelIntro
   ventanaObjetivo: {fileID: 1983680532}
   playerController: {fileID: 908178690}
+  pauseManager: {fileID: 1808746303}
 --- !u!4 &611706792
 Transform:
   m_ObjectHideFlags: 0
