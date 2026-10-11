@@ -1005,6 +1005,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4582688140951878251, guid: 8f2efc50a4cf362408c6165b04f3d15c, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6336497869414535676, guid: 8f2efc50a4cf362408c6165b04f3d15c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -376.424
@@ -3455,6 +3459,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3117448911519102106, guid: ad2e499151a0627469e6752051229209, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6786409681794233885, guid: ad2e499151a0627469e6752051229209, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7725382070131304987, guid: ad2e499151a0627469e6752051229209, type: 3}
@@ -8542,7 +8550,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1983680533
 RectTransform:
   m_ObjectHideFlags: 0
