@@ -8,7 +8,6 @@ Grupo: D
 1. Danny Gorddy Huaman Chavez
 2. Susan Katherine Torres Calderon
 3. Francisco James Leon Trujillo
-4. Willian Oviedo Quispe
 
 ## Descripción
 
