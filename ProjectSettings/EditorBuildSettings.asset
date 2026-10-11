@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
+    path: Assets/Scenes/Desierto.unity
+    guid: dc0002138466136479fcf1d43c7e1931
+  - enabled: 1
     path: Assets/Scenes/WinScene.unity
     guid: dc6c7377ad121de4295d3154121baa6b
   m_configObjects:

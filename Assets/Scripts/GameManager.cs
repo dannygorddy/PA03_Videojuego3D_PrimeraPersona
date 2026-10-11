@@ -10,13 +10,18 @@ public class GameManager : MonoBehaviour
 
     public TMP_Text collectiblesNumbersText;
     private int collectiblesNumber;
+
     public TMP_Text totalCollectiblesNumbersText;
     private int totalCollectiblesNumber;
 
+    [Header("Cambio de nivel")]
+    [SerializeField] private string siguienteEscena;
+
+    private bool cambiandoEscena = false;
 
     void Start()
     {
-        totalCollectiblesNumber = transform.childCount; 
+        totalCollectiblesNumber = transform.childCount;
         totalCollectiblesNumbersText.text = totalCollectiblesNumber.ToString();
 
         audioSource.volume = PlayerPrefs.GetFloat("SFXVolume", 0.7f);
@@ -24,16 +29,21 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        if (transform.childCount <= 0)
+        if (transform.childCount <= 0 && !cambiandoEscena)
         {
-            SceneManager.LoadScene("WinScene");
+            cambiandoEscena = true;
+
+            Time.timeScale = 1f;
+            AudioListener.pause = false;
+
+            SceneManager.LoadScene(siguienteEscena);
         }
-        
     }
 
     public void AddCollectible()
     {
         audioSource.Play();
+
         collectiblesNumber = collectiblesNumber + 1;
         collectiblesNumbersText.text = collectiblesNumber.ToString();
     }
